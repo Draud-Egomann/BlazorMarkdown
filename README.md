@@ -1,6 +1,7 @@
-# Blazor Web App Template
+# Blazor Markdown
 
-This is a template for a Blazor Web App with a Docker Compose configuration also splitting the database and the application.
+This is a Blazor Web App with a Docker Compose configuration also splitting the database and the application.
+It uses the **Markdig** Libary to render Markdown as HTML on the Frontend.
 
 ## Prerequisites
 
@@ -29,7 +30,6 @@ Add-Migration [Name]
 | Data | Contains the models, interfaces and database context for the application. |
 | docker-compose | Contains the configuration for the Docker containers. |
 | Web | Contains the UI / Frontend of the application. |
-| Tests | Contains the unit and integration tests for the application. |
 
 ## License
 
